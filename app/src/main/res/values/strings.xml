@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Toy Village</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btnsummer_send">Conformation SMS to Customers</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="send_int_sms">Internet base SMS</string>
+    <string name="send_email">To Send email</string>
+    <string name="compose_email">Compose Email</string>
+
+    <string name="heading_payment">Please enter payment Details</string>
+    <string name="networking">- ToySrus - \n To see our Clearance products!</string>
+    <string name="paypal">PayPal</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="card_number">Card Number</string>
+    <string name="ccv">CVV</string>
+    <string name="card_holdername">Card Holder Name</string>
+    <string name="expire_date">Expiry Date</string>
+
+    <!--Confirmation Activity strings-->
+    <string name="sub_total">Sub-Total:</string>
+    <string name="subtotal_ammount">$123</string>
+    <string name="estimated_taxes">Estimated Taxes:</string>
+    <string name="shipping">Shipping:</string>
+    <string name="cost_price">FREE</string>
+    <string name="order_total">Order Total:</string>
+    <string name="order_total_amount">$12312</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="confirmation_name">Name</string>
+    <string name="confirmation_address">Address</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="confirmation_phone">Phone</string>
+    <string name="btn_confirm">Comfirm</string>
+
+    <!--cart_list Activity strings-->
+    <string name="toy_name">Toy Name</string>
+    <string name="toy_price">Price</string>
+
+
+    <!--my_list_item Activity strings-->
+    <string name="company">Company</string>
+    <string name="description">Description</string>
+    <string name="company_price">Price</string>
+    <string name="company_buy_toy">Buy This Toy</string>
+    <string name="category">Category</string>
+
+
+    <!-- SMS Activity strings-->
+    <string name="send_emails">Enter your email address </string>
+
+    <!--Summary Activity strings-->
+    <string name="order_summary">Your Order Summary:</string>
+
+    <!--moreInfo Activity strings-->
+    <string name="search">Search</string>
+    <string name="search_keywards">search keyword</string>
+
+    <!--cart Activity strings-->
+    <string name="sh_cartitem">Shopping Cart Item</string>
+    <string name="btn_checkout">Check Out</string>
+
+    <!--ToyReview Activity strings-->
+    <string name="bkreview_info">Review Best Selling Toys</string>
+    <string name="bk_toreview_online">To review more toys online</string>
+    <string name="bk_click">Click Here</string>
+
+</resources>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context=".ConfirmActivity"
+    android:background="@mipmap/backgroundwhite">
+
+    <TableLayout
+        android:id="@+id/tlPrice"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/conform_styling"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/alegreya_sans_sc"
+            android:text="Order Summary"
+            android:textAlignment="center"
+            android:textSize="27dp" />
+
+        <TableRow>
+            <TextView
+                style="@style/conform_styling"
+                android:layout_marginLeft="10dp"
+                android:layout_width="200dp"
+                android:fontFamily="@font/alegreya_sans_sc"
+                android:text="@string/sub_total"
+                android:textSize="22sp" />
+            <TextView
+                android:id="@+id/tvOrderSubtotal"
+                style="@style/conform_styling"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alegreya_sans_sc"
+                android:text="@string/subtotal_ammount"
+                android:textAlignment="textEnd"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                style="@style/conform_styling"
+                android:layout_width="200dp"
+                android:fontFamily="@font/alegreya_sans_sc"
+                android:text="@string/estimated_taxes"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/tvOrderTax"
+                style="@style/conform_styling"
+                android:layout_width="132dp"
+                android:fontFamily="@font/alegreya_sans_sc"
+                android:text="@string/subtotal_ammount"
+                android:textAlignment="textEnd"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/conform_styling"
+                android:layout_marginLeft="10dp"
+                android:layout_width="200dp"
+                android:fontFamily="@font/alegreya_sans_sc"
+                android:text="@string/shipping"
+                android:textSize="22sp" />
+
+            <TextView
+                style="@style/conform_styling"
+                android:layout_width="150dp"
+                android:fontFamily="@font/alegreya_sans_sc"
+                android:text="@string/cost_price"
+                android:textAlignment="textEnd"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="20dp">
+
+            <TextView
+                style="@style/conform_styling"
+                android:layout_width="200dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/alegreya_sans_sc"
+                android:text="@string/order_total"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/tvOrderTotal"
+                style="@style/conform_styling"
+                android:layout_width="150dp"
+                android:fontFamily="@font/alegreya_sans_sc"
+                android:text="@string/order_total_amount"
+                android:textAlignment="textEnd"
+                android:textSize="18sp" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="404dp"
+        android:layout_height="381dp"
+        android:layout_below="@+id/tlPrice"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp">
+
+        <View
+            android:id="@+id/textView1"
+            android:layout_height="1dp"
+            android:background="#441795" />
+
+        <TextView
+            style="@style/conform_styling"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/alegreya_sans_sc"
+            android:text="@string/shipping_address"
+            android:textAlignment="center"
+            android:textSize="27dp" />
+
+        <TableRow>
+
+            <TextView
+                style="@style/conform_styling"
+                android:layout_width="100dp"
+                android:fontFamily="@font/alegreya_sans_sc"
+                android:text="@string/confirmation_name"
+                android:textAlignment="textEnd"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/etShipName"
+                style="@style/conform_edit_styling"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="25dp"
+                android:hint="@string/confirmation_name" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/conform_styling"
+                android:layout_width="100dp"
+                android:fontFamily="@font/alegreya_sans_sc"
+                android:text="@string/confirmation_address"
+                android:textAlignment="textEnd"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/etShipAddress"
+                style="@style/conform_edit_styling"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="25dp"
+                android:hint="@string/confirmation_address" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/conform_styling"
+                android:layout_width="130dp"
+                android:fontFamily="@font/alegreya_sans_sc"
+                android:text="@string/postal_code"
+                android:textAlignment="textEnd"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/etShipPostCode"
+                style="@style/conform_edit_styling"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="25dp"
+                android:hint="@string/postal_code" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/conform_styling"
+                android:layout_width="130dp"
+                android:fontFamily="@font/alegreya_sans_sc"
+                android:text="@string/confirmation_phone"
+                android:textAlignment="textEnd"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/etShipPhone"
+                style="@style/conform_edit_styling"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/confirmation_phone"
+                android:inputType="phone" />
+        </TableRow>
+        <!--
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#441795" />
+-->
+        <Button
+            android:id="@+id/btnComfirm"
+            style="@style/button_styling"
+            android:layout_width="334dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginRight="59dp"
+            android:background="@drawable/button_background"
+            android:text="@string/btn_confirm"
+            android:textColor="@color/white"
+            android:textSize="22dp" />
+    </TableLayout>
+  <!--  <android.support.design.widget.BottomNavigationView-->
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/summaryNavView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/navigation"/>
+</RelativeLayout>
