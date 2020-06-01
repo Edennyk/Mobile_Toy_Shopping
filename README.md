@@ -17,8 +17,8 @@ Description
 
 Screenshots
 =
-<img src="https://user-images.githubusercontent.com/59883982/83422041-f2dbe100-a3f6-11ea-83e1-78c81620bf52.jpg" width="200"></img>
+<img src="https://user-images.githubusercontent.com/59883982/83422041-f2dbe100-a3f6-11ea-83e1-78c81620bf52.jpg" width="300"></img>
 
-<img src="https://user-images.githubusercontent.com/59883982/83422050-f4a5a480-a3f6-11ea-91fe-6c61031e9aba.jpg" width="200"></img>
+<img src="https://user-images.githubusercontent.com/59883982/83422050-f4a5a480-a3f6-11ea-91fe-6c61031e9aba.jpg" width="300"></img>
 
-<img src="https://user-images.githubusercontent.com/59883982/83422055-f707fe80-a3f6-11ea-9933-e37b3a32ed9c.jpg" width="200"></img>
+<img src="https://user-images.githubusercontent.com/59883982/83422055-f707fe80-a3f6-11ea-9933-e37b3a32ed9c.jpg" width="300"></img>
