@@ -2,12 +2,12 @@
 - Acadedemic project: pair programming
 - Android studio
 
-Skill
-=
+## Skill
+
 Java
 
-Description
-=
+## Description
+
 - Displaying a list of products
 - Categorized the list of priducts
 - Customer/user chooses from this list of products and add them to a shopping cart 
@@ -15,8 +15,8 @@ Description
 - Shopping information summary
 - send a confirmation SMS message and e-mail
 
-Screenshots
-=
+## Screenshots
+
 
 <img src="https://user-images.githubusercontent.com/59883982/84429371-00af1480-abf6-11ea-92b5-2014c0b9dae9.png" width="300"></img>
 
